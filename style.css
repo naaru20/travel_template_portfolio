@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+
+.sky{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/sky.jpg');
+    background-size: cover;
+    position: absolute;
+} 
+
+
+.background{
+    width: 800vw;
+    height: 40vh;
+    background-image: url('/background.png');
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 135px;
+    animation: backmotion linear 10s infinite;
+}
+
+.tree{
+    width: 800vw;
+    height: 221vh;
+    background-image: url('/tree.png'); 
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 122px;
+    animation: backmotion linear 22s infinite;
+}
+
+.plan{
+    height: 20vh;
+    width: 800vw;
+    background-image: url('/plan.jpeg');
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+    animation:roadmotion linear 0.5s infinite ;
+}
+
+.car_body{
+   
+    height: 150px;
+    width: 270px;
+    background-image: url('/car_body.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 337px;
+    bottom: 130px;
+    animation: shake linear 1s infinite;
+
+    
+}
+/* .carWheel{
+    animation: wheelrotation linear 3s infinite;
+} */
+.leftWheel{
+    height: 125px;
+    width: 120px;
+    position: absolute;
+    left: 389px;
+    bottom: 61px;
+}
+.leftWheel img{
+    height: 73px;
+    width: 92px;
+    position: absolute;
+
+    animation: wheelrotation linear 0.1s infinite;
+
+}
+.rightWheel img{
+    height: 73px;
+    width: 92px;
+    position: absolute;
+    animation: wheelrotation linear 0.1s infinite;
+
+}
+
+.rightWheel{
+    height: 114px;
+    width: 120px;
+    position: absolute;
+    left: 505px;
+    bottom: 73px;
+}
+.gif{
+    height: 23px;
+    width: 122px;
+    position: absolute;
+    left: 258px;
+    bottom: 42px;
+    bottom: 256px;
+}
+
+
+
+@keyframes wheelrotation{
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+@keyframes roadmotion{
+    100%{
+        transform: translateX(-500vw)
+    }
+
+}
+@keyframes backmotion{
+    100%{
+        transform: translateX(-500vw)
+    }
+
+}
+    
+@keyframes shake{
+    
+    0%{
+        transform: translatey(-3px)
+    }
+    50%{
+        transform: translatey(3px)
+    }
+    100%{
+        transform: translatey(-3px)
+    }
+
+}
+    
