@@ -9,7 +9,7 @@ body{
 .sky{
     height: 100vh;
     width: 100%;
-    background-image: url('/sky.jpg');
+    background-image: url('/media/sky.jpg');
     background-size: cover;
     position: absolute;
 } 
@@ -18,7 +18,7 @@ body{
 .background{
     width: 800vw;
     height: 40vh;
-    background-image: url('/background.png');
+    background-image: url('/media/background.png');
     background-repeat: repeat-x;
     position: absolute;
     bottom: 135px;
@@ -28,7 +28,7 @@ body{
 .tree{
     width: 800vw;
     height: 221vh;
-    background-image: url('/tree.png'); 
+    background-image: url('/media/tree.png'); 
     background-repeat: repeat-x;
     position: absolute;
     bottom: 122px;
@@ -38,7 +38,7 @@ body{
 .plan{
     height: 20vh;
     width: 800vw;
-    background-image: url('/plan.jpeg');
+    background-image: url('/media/plan.jpeg');
     background-repeat: repeat-x;
     position: absolute;
     bottom: 0px;
@@ -49,7 +49,7 @@ body{
    
     height: 150px;
     width: 270px;
-    background-image: url('/car_body.png');
+    background-image: url('/media/car_body.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
